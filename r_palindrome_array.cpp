@@ -6,7 +6,8 @@
 
 using namespace std;
 
-bool palindrome(int64_t i, int64_t j, const vector<int64_t> &A) {
+bool palindrome(int64_t i, int64_t j,
+                const vector<int64_t> &A) {
   if (i >= j) {
     return true;
   }
@@ -16,7 +17,6 @@ bool palindrome(int64_t i, int64_t j, const vector<int64_t> &A) {
   }
 
   return false;
-  
 }
 
 int main() {
