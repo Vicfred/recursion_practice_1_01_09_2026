@@ -1,5 +1,6 @@
-// Put '+' or '-' signs between every two numbers in the array A
-// in order to make an expression that is equal to X .
+// Put '+' or '-' signs between every two numbers in the
+// array A in order to make an expression
+// that is equal to X.
 #include <cstdint>
 #include <iostream>
 #include <vector>
