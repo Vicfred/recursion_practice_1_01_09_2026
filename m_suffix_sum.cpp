@@ -6,7 +6,8 @@
 
 using namespace std;
 
-int64_t suffix_sum(int64_t n, int64_t m, const vector<int64_t> &A) {
+int64_t suffix_sum(int64_t n, int64_t m,
+                   const vector<int64_t> &A) {
   if (m == 0) {
     return 0;
   }
